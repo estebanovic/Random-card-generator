@@ -1,0 +1,33 @@
+
+body{
+    background-color: lightgreen;
+}
+
+.card{
+    margin: auto;
+    margin-top: 60px;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-number{
+    text-align: center;
+    font-size: 250px;
+}
+
+.symbol{
+    margin-left: 20px;
+    font-size: 100px;
+}
+
+.symbol-i{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 100px;
+}
+
+.symbol-i *{
+    transform: rotate(-180deg);
+}
