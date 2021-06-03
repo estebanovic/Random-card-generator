@@ -3,7 +3,7 @@ body{
     background-color: lightgreen;
 }
 
-.card{
+#card{
     margin: auto;
     margin-top: 60px;
     width: 350px;
@@ -12,22 +12,24 @@ body{
     background-color: white;
 }
 
-.card-number{
+#card-number{
     text-align: center;
     font-size: 250px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.symbol{
+.suit{
     margin-left: 20px;
-    font-size: 100px;
-}
-
-.symbol-i{
-    text-align: right;
     margin-right: 20px;
     font-size: 100px;
 }
 
-.symbol-i *{
-    transform: rotate(-180deg);
-}
+.upsidedown {
+    text-align: right;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg); 
+  }
